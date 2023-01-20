@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+}
+.logo-entrar{
+    width: 140px;
+    height: 140px;
+    cursor: pointer;
+}
+.acesso{
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position:relative
+}
+.main{
+    height:320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.solicita-nome{
+    width: 261px;
+    height: 54px;
+    background-color:#FFFFFF;
+    border: 1px solid #D7D7D7;
+    border-radius: 4px;
+    cursor: text;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height:25px;
+    color: #AEAEAE;
+    text-align: center;
+
+}
+.botao-entrar{
+    width: 109px;
+    height: 45px;
+    background-color: #E7E7E7;
+    border:none;
+    border-radius: 9px;
+    cursor: pointer;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:400;
+    font-size: 18px;
+    line-height:25px;
+    color:#696969;
+}
+.botao-entrar:disabled{
+    color:rgb(156, 157, 160);
+    background-color: #c0bfbf;
+    cursor:not-allowed;
+}
+.input-nome{
+    background-color:#FFFFFF;
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.loading{
+    height: 120px;
+    width: 120px;
+    position: absolute;
+}
+.esconder{
+    display:none;
+}
+.header{
+    background-color: aqua;
+    padding-left: 22px;
+    padding-right: 22px;
+    height:80px;
+    width: 100%;
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-mensagens{
+    background-color: yellowgreen;
+}
+.footer{
+    background-color: hotpink;
+    padding-right: 18px;
+    height: 80px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    position:fixed;
+    margin-top: 90vh;
+
+}
+.send-message{
+    width:26px;
+    height:26px;
+}
+.logo-chat{
+    width:80px;
+    height:70px;
+}
+.usuarios{
+    width:75px;
+    height:53px;
+    color: #000000;
+}
+@media(min-width:390px){
+    .footer{
+        margin-top: 90vh;
+
+    }
+}
+@media(max-width:375px){
+    .footer{
+        margin-top: 89vh;
+
+    }
+}
+@media(min-width:800px){
+    .footer{
+        margin-top: 92vh;
+
+    }
+}
+@media(min-width:1000px){
+    .footer{
+        margin-top: 92vh;
+
+    }
+}
